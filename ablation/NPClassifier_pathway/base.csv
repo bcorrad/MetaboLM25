@@ -1,0 +1,19 @@
+modelname                 , dataset             , classifier, type, ari               , nmi              , accuracy          , f1_macro          , precision         , recall
+meta-llama/Meta-Llama-3-8B, NPClassifier_pathway, KMeans    , orig, 0.4401067590229676, 0.417060308843819,                   ,                   ,                   , 
+meta-llama/Meta-Llama-3-8B, NPClassifier_pathway, LR        , orig,                   ,                  , 0.9507915122937016, 0.9164314846136633, 0.9318170230048979, 0.9089819237640715
+meta-llama/Meta-Llama-3-8B, NPClassifier_pathway, MLP       , orig,                   ,                  , 0.9468171101380937, 0.9213336446435038, 0.9274365754681705, 0.9168498760529861
+seyonec/ChemBERTa-zinc-base-v1,NPClassifier_pathway,KMeans,orig,0.310343699330259,0.3752369174148112,,,,
+seyonec/ChemBERTa-zinc-base-v1,NPClassifier_pathway,LR,orig,,,0.923509599191647,0.8870826369433538,0.9007778457671615,0.8750905966670021
+seyonec/ChemBERTa-zinc-base-v1,NPClassifier_pathway,MLP,orig,,,0.9491074435836983,0.9203188261812328,0.9260818439274416,0.9157410202123489
+DeepChem/ChemBERTa-77M-MLM,NPClassifier_pathway,KMeans,orig,0.45168602651586254,0.507709272660979,,,,
+DeepChem/ChemBERTa-77M-MLM,NPClassifier_pathway,LR,orig,,,0.9475917817446952,0.9258013384906972,0.9309654970460403,0.9210901487813219
+DeepChem/ChemBERTa-77M-MLM,NPClassifier_pathway,MLP,orig,,,0.9691478612327383,0.9536515187551214,0.9486983244975445,0.9593810626307572
+sentence-transformers/all-mpnet-base-v2,NPClassifier_pathway,KMeans,orig,0.22973201714698474,0.30022489931874907,,,,
+sentence-transformers/all-mpnet-base-v2,NPClassifier_pathway,LR,orig,,,0.8881441562815763,0.8360783129921021,0.8556227406300113,0.8210425589967077
+sentence-transformers/all-mpnet-base-v2,NPClassifier_pathway,MLP,orig,,,0.9422364432468845,0.915045665643506,0.9154411350220695,0.9151025266190478
+gpt2,NPClassifier_pathway,KMeans,orig,0.059753098247079375,0.10040174389445997,,,,
+gpt2,NPClassifier_pathway,LR,orig,,,0.9313910407544628,0.8993167781077617,0.9064842225952949,0.8937454148641854
+gpt2,NPClassifier_pathway,MLP,orig,,,0.9434826540922869,0.9135636376181023,0.9172351918329417,0.9108681744684007
+sentence-transformers/all-MiniLM-L6-v2,NPClassifier_pathway,KMeans,orig,0.2399092347299515,0.31661406783118967,,,,
+sentence-transformers/all-MiniLM-L6-v2,NPClassifier_pathway,LR,orig,,,0.8800269450993601,0.8270114234427773,0.8425617848009977,0.8143614381293658
+sentence-transformers/all-MiniLM-L6-v2,NPClassifier_pathway,MLP,orig,,,0.9421690804984844,0.9181208458130599,0.9205858079250268,0.9165022450653898

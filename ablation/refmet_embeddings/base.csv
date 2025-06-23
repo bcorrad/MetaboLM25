@@ -1,0 +1,19 @@
+modelname                              , dataset          , classifier, type, ari                , nmi                , accuracy          , f1_macro          , precision         , recall
+meta-llama/Meta-Llama-3-8B             , refmet_embeddings, KMeans    , orig, 0.3391714326426635 , 0.5421729895726838 ,                   ,                   ,                   , 
+meta-llama/Meta-Llama-3-8B             , refmet_embeddings, LR        , orig,                    ,                    , 0.8940542361462018, 0.6697955423691958, 0.7698268239309959, 0.6365781287267829
+meta-llama/Meta-Llama-3-8B             , refmet_embeddings, MLP       , orig,                    ,                    , 0.9136769412161024, 0.7041482805703204, 0.7720856029253637, 0.6879777187157642
+seyonec/ChemBERTa-zinc-base-v1         , refmet_embeddings, KMeans    , orig, 0.30435510909645785, 0.48710706578327645,                   ,                   ,                   , 
+seyonec/ChemBERTa-zinc-base-v1         , refmet_embeddings, LR        , orig,                    ,                    , 0.9049183089102241, 0.6750763365023447, 0.7175005145519118, 0.6620034833913826
+seyonec/ChemBERTa-zinc-base-v1         , refmet_embeddings, MLP       , orig,                    ,                    , 0.9072764022233452, 0.660399734582419 , 0.6896507213908718, 0.6483333364360775
+DeepChem/ChemBERTa-77M-MLM             , refmet_embeddings, KMeans    , orig, 0.3287764732827602 , 0.5541626743640813 ,                   ,                   ,                   , 
+DeepChem/ChemBERTa-77M-MLM             , refmet_embeddings, LR        , orig,                    ,                    , 0.9196563921172309, 0.7409489311347441, 0.7726208448367368, 0.7319501692393
+DeepChem/ChemBERTa-77M-MLM             , refmet_embeddings, MLP       , orig,                    ,                    , 0.9276570658581775, 0.743040858157983 , 0.7553882722736922, 0.7380763204882792
+sentence-transformers/all-mpnet-base-v2, refmet_embeddings, KMeans    , orig, 0.34503263753234575, 0.5058931612498272 ,                   ,                   ,                   , 
+sentence-transformers/all-mpnet-base-v2, refmet_embeddings, LR        , orig,                    ,                    , 0.9021391275054741, 0.7260031458880829, 0.7740392586828787, 0.7108806358025985
+sentence-transformers/all-mpnet-base-v2, refmet_embeddings, MLP       , orig,                    ,                    , 0.9203301330638369, 0.7357554596154094, 0.7981105530338797, 0.7174642677478837
+gpt2                                   , refmet_embeddings, KMeans    , orig, 0.08234468938877583, 0.20628215234587388,                   ,                   ,                   , 
+gpt2                                   , refmet_embeddings, LR        , orig,                    ,                    , 0.9065184436584134, 0.7099837365167906, 0.757201205950121 , 0.6961660847806828
+gpt2                                   , refmet_embeddings, MLP       , orig,                    ,                    , 0.9109819774296782, 0.6771265011166382, 0.7346844988795725, 0.6683183728504628
+sentence-transformers/all-MiniLM-L6-v2 , refmet_embeddings, KMeans    , orig, 0.28146545677095847, 0.5053163299918499 ,                   ,                   ,                   , 
+sentence-transformers/all-MiniLM-L6-v2 , refmet_embeddings, LR        , orig,                    ,                    , 0.8983493346808152, 0.6948214544664373, 0.7546244243562247, 0.6656138469601861
+sentence-transformers/all-MiniLM-L6-v2 , refmet_embeddings, MLP       , orig,                    ,                    , 0.9249621020717534, 0.752964207869932 , 0.8173426565116054, 0.7243507732531215
